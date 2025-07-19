@@ -1,0 +1,16 @@
+"./diansai2024H.o"
+"./ti_msp_dl_config.o"
+"./startup_mspm0g350x_ticlang.o"
+"./Hardware/atk_ms901m.o"
+"./Hardware/atk_ms901m_uart.o"
+"./Hardware/delay.o"
+"./Hardware/gpio_zzk.o"
+"./Hardware/huidu5.o"
+"./Hardware/motor.o"
+"./Hardware/oled.o"
+"./User/control.o"
+"./User/isr.o"
+"./User/pid.o"
+-l"./device_linker.cmd"
+-ldevice.cmd.genlibs
+-llibc.a
